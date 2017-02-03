@@ -1,0 +1,168 @@
+html{
+	height:100%;
+}
+
+body{
+	height:85%;
+}
+
+h1{
+	background-color: #4aaaa5;
+	color: white;
+	width:250px;
+	height:70px;
+	padding:15px;
+}
+
+h3{
+	color:#4aaaa5;
+}
+
+h4{
+	background-color: #4aaaa5;
+	color: white;
+	width:300px;
+	height:70px;
+	padding-top: 25px;
+	text-align: center;
+	font-size: 24px;
+	position:relative;
+	bottom:100px;
+
+}
+
+a{
+	color:black;
+	font-size: 20px;
+}
+
+a:hover{
+	color: #4aaaa5;
+}
+
+p{
+	margin:10px;
+	font-size: 15px;
+}
+
+form{
+	line-height: 35px;
+}
+
+
+input{
+	width: 95%;
+	height: 40px;
+	padding: 5px;
+	color:lightgray;
+}
+
+textarea{
+	width: 95%;
+	height: 200px;
+}
+
+.header{
+	background-color: white;
+	border-bottom: 5px solid #cccccc;
+	padding: 0% 20%;
+}
+
+.header-center{
+	text-align: center;
+}
+
+.main-nav{
+	position:relative;
+	top:45px;
+
+}
+
+.main-nav a{
+	margin:15px;
+}
+
+.side-nav{
+	position:relative;
+}
+
+.side-nav a{
+	margin:15px;
+}
+
+.left{
+	position:absolute;
+	left:0;
+}
+
+.middle{
+	position:absolute;
+	right:37%;
+}
+
+.right{
+	position:absolute;
+	right:0;
+}
+
+.bg-texture{
+	background-image: url("../../assets/images/footer_lodyas.jpg");
+}
+
+.full-height{
+	height:100%;
+}
+
+.profile-img{
+	margin-right: 15px;
+	width: 200px;
+	height: 200px;
+}
+
+.content{
+	padding: 2% 20%;
+	border-bottom: 10px solid #dddddd;
+	overflow: auto;
+}
+
+.submit{
+	width:auto;
+	height:auto;
+	padding:10px 35px;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	border: none;
+	font-size: 18px;
+}
+
+.footer{
+	background-color: #666666;
+}
+
+.footer p{
+	color:white;
+}
+
+@media screen and (max-width: 980px){
+
+}
+
+
+
+@media screen and (max-width: 767px){
+		h1{
+		width:100%;
+		text-align: center
+	}
+
+	.main-nav{
+		position:relative;
+		top:0;
+		height:45px;
+
+	}
+}
+
+@media screen and (max-width: 640px){
+
+}
