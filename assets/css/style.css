@@ -7,7 +7,6 @@ body{
 }
 
 h1{
-	background-color: #4aaaa5;
 	color: white;
 	width:250px;
 	height:70px;
@@ -63,8 +62,7 @@ textarea{
 }
 
 .header{
-	background-color: white;
-	border-bottom: 5px solid #cccccc;
+	background-color: #1E1E23;
 	padding: 0% 20%;
 }
 
