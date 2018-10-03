@@ -3,14 +3,13 @@ html{
 }
 
 body{
+	background-color: #1C2023;
 	height:85%;
 }
 
 h1{
 	color: #aaa9ab;
-	width:250px;
-	height:70px;
-	padding:15px;
+	padding:15px 0px;
 }
 
 h3{
@@ -33,10 +32,12 @@ h4{
 a{
 	color:#aaa9ab;
 	font-size: 18px;
+	padding: 15px;
+	/* position: absolute; */
 }
 
 a:hover{
-	color: #4aaaa5;
+	color: #FF4500;
 }
 
 p{
@@ -47,7 +48,6 @@ p{
 form{
 	line-height: 35px;
 }
-
 
 input{
 	width: 95%;
@@ -61,8 +61,12 @@ textarea{
 	height: 200px;
 }
 
+.card{
+ width: 400px;
+}
+
 .header{
-	background-color: #1E1E23;
+	background-color: #15191C;
 	padding: 0% 20%;
 }
 
@@ -72,55 +76,13 @@ textarea{
 
 .main-nav{
 	position:relative;
-	top:45px;
-
-}
-
-.main-nav a{
-	margin:15px;
-}
-
-.side-nav{
-	position:relative;
-}
-
-.side-nav a{
-	margin:15px;
-}
-
-.left{
-	position:absolute;
-	left:0;
-}
-
-.middle{
-	position:absolute;
-	right:37%;
-}
-
-.right{
-	position:absolute;
-	right:0;
-}
-
-.bg-texture{
-	background-image: url("../../assets/images/footer_lodyas.jpg");
-}
-
-.full-height{
-	height:100%;
+	top:32px;
 }
 
 .profile-img{
 	margin-right: 15px;
 	width: 200px;
 	height: 200px;
-}
-
-.content{
-	padding: 2% 20%;
-	border-bottom: 10px solid #dddddd;
-	overflow: auto;
 }
 
 .submit{
@@ -131,14 +93,6 @@ textarea{
 	color: #ffffff;
 	border: none;
 	font-size: 18px;
-}
-
-.footer{
-	background-color: #666666;
-}
-
-.footer p{
-	color:white;
 }
 
 @media screen and (max-width: 980px){
@@ -155,9 +109,8 @@ textarea{
 
 	.main-nav{
 		position:relative;
-		top:0;
+		top:32;
 		height:45px;
-
 	}
 }
 
