@@ -62,7 +62,14 @@ textarea{
 }
 
 .card{
- width: 400px;
+	background-color: #212529;
+	color:  #aaa9ab;
+ 	width: auto;
+ 	margin: 10px 10px;
+}
+
+.content{
+	padding: 0 20%;
 }
 
 .header{
