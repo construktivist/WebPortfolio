@@ -33,7 +33,6 @@ a{
 	color:#aaa9ab;
 	font-size: 18px;
 	padding: 15px;
-	/* position: absolute; */
 }
 
 a:hover{
@@ -47,13 +46,13 @@ p{
 
 form{
 	line-height: 35px;
+	padding: 0% 10%;
 }
 
 input{
 	width: 95%;
 	height: 40px;
 	padding: 5px;
-	color:lightgray;
 }
 
 textarea{
@@ -96,7 +95,7 @@ textarea{
 	width:auto;
 	height:auto;
 	padding:10px 35px;
-	background-color: #4aaaa5;
+	background-color: #aaa9ab;
 	color: #ffffff;
 	border: none;
 	font-size: 18px;
@@ -105,8 +104,6 @@ textarea{
 @media screen and (max-width: 980px){
 
 }
-
-
 
 @media screen and (max-width: 767px){
 		h1{
