@@ -12,10 +12,6 @@ h1{
 	padding: 15px 0px;
 }
 
-h3{
-	color:#4aaaa5;
-}
-
 a{
 	color:#aaa9ab;
 	font-size: 18px;
@@ -46,25 +42,20 @@ input:invalid{
 	border: 2px solid red;
 }
 
-textarea{
-	height: 200px;
-	width: 95%;
-}
-
 .card{
 	background-color: #212529;
 	color:  #aaa9ab;
 	margin: 10px 10px;
-	min-width: 920px;
+	max-width: 60%;
+}
+
+.card-text{
+	word-wrap: break-word;
 }
 
 .header{
 	background-color: #15191C;
 	padding: 0% 20%;
-}
-
-.header-center{
-	text-align: center;
 }
 
 .main-nav{
@@ -87,24 +78,3 @@ textarea{
 	padding:10px 35px;
 	width:auto;
 }
-
-/* @media screen and (max-width: 980px){
-
-}
-
-@media screen and (max-width: 767px){
-		h1{
-		width:100%;
-		text-align: center
-	}
-
-	.main-nav{
-		position:relative;
-		top:32;
-		height:45px;
-	}
-}
-
-@media screen and (max-width: 640px){
-
-} */
