@@ -3,166 +3,78 @@ html{
 }
 
 body{
+	background-color: #1C2023;
 	height:85%;
 }
 
 h1{
-	background-color: #4aaaa5;
-	color: white;
-	width:250px;
-	height:70px;
-	padding:15px;
-}
-
-h3{
-	color:#4aaaa5;
-}
-
-h4{
-	background-color: #4aaaa5;
-	color: white;
-	width:300px;
-	height:70px;
-	padding-top: 25px;
-	text-align: center;
-	font-size: 24px;
-	position:relative;
-	bottom:100px;
-
+	color: #aaa9ab;
+	padding: 15px 0px;
 }
 
 a{
-	color:black;
-	font-size: 20px;
+	color:#aaa9ab;
+	font-size: 18px;
+	padding: 15px;
 }
 
 a:hover{
-	color: #4aaaa5;
+	color: #FF4500;
 }
 
 p{
-	margin:10px;
 	font-size: 17px;
+	margin:10px;
 }
 
 form{
 	line-height: 35px;
+	padding: 0% 10%;
 }
-
 
 input{
-	width: 95%;
 	height: 40px;
 	padding: 5px;
-	color:lightgray;
+	width: 95%;
 }
 
-textarea{
-	width: 95%;
-	height: 200px;
+input:invalid{
+	border: 2px solid red;
+}
+
+.card{
+	background-color: #212529;
+	color:  #aaa9ab;
+	margin: 10px 10px;
+	max-width: 60%;
+}
+
+.card-text{
+	word-wrap: break-word;
 }
 
 .header{
-	background-color: white;
-	border-bottom: 5px solid #cccccc;
+	background-color: #15191C;
 	padding: 0% 20%;
-}
-
-.header-center{
-	text-align: center;
 }
 
 .main-nav{
 	position:relative;
-	top:45px;
-
-}
-
-.main-nav a{
-	margin:15px;
-}
-
-.side-nav{
-	position:relative;
-}
-
-.side-nav a{
-	margin:15px;
-}
-
-.left{
-	position:absolute;
-	left:0;
-}
-
-.middle{
-	position:absolute;
-	right:37%;
-}
-
-.right{
-	position:absolute;
-	right:0;
-}
-
-.bg-texture{
-	background-image: url("../../assets/images/footer_lodyas.jpg");
-}
-
-.full-height{
-	height:100%;
+	top:32px;
 }
 
 .profile-img{
+	height: 200px;
 	margin-right: 15px;
 	width: 200px;
-	height: 200px;
-}
-
-.content{
-	padding: 2% 20%;
-	border-bottom: 10px solid #dddddd;
-	overflow: auto;
 }
 
 .submit{
-	width:auto;
+	background-color: #aaa9ab;
+	border: none;
+	color: #ffffff;
+	font-size: 18px;
 	height:auto;
 	padding:10px 35px;
-	background-color: #4aaaa5;
-	color: #ffffff;
-	border: none;
-	font-size: 18px;
-}
-
-.footer{
-	background-color: #666666;
-}
-
-.footer p{
-	color:white;
-}
-
-@media screen and (max-width: 980px){
-
-}
-
-
-
-@media screen and (max-width: 767px){
-		h1{
-		width:100%;
-		text-align: center
-	}
-
-	.main-nav{
-		position:relative;
-		top:0;
-		height:45px;
-
-	}
-}
-
-@media screen and (max-width: 640px){
-
+	width:auto;
 }
