@@ -1,61 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<title>Keegan Kelly Portfolio</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
-<body class="bg-texture">
-		<!-- Header -->
-		<div class="row header">
-			<div class="col-xs-12 col-sm-6 col-md-8">
+
+<body>
+	<div class="container-fluid">
+	<!--Header-->
+	<div class="row header">
+			<div class="col">
 				<h1>Keegan Kelly</h1>
 			</div>
-			<div class="col-xs-12 col-sm-6 col-md-4">
-				<div class="main-nav">
-					<a class="left" href="index.html">About</a>
-					<a class="middle" href="portfolio.html">Portfolio</a>
-				</div>
+			<div class="col">
+					<div class="main-nav float-right">
+						<a href="about.html">About</a>
+						<a href="index.html">Portfolio</a>
+						<a href="contact.html">Contact</a>
+					</div>
 			</div>
 		</div>
+
 		<!-- Content -->
-		<div class="row full-height content">
-			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-8">
-				<div class="panel panel-default">
-					<div class="panel-body">
-						<h3>About Me</h3>
-						<hr>
-						<img class="pull-left profile-img" src="assets/images/profile.jpg" alt="Keegan profile picture">
-						<p>Keegan Kelly is a full-stack web developer with a background in quality assurance and graphic design. He received a Bachelor of Arts in Graphic Design from St. Edwards University and a full-stack web development certificate from the University of Texas Coding Bootcamp. His extensive experience in the tech industry coupled with his diverse knowledge of web development skills makes Keegan an ideal fit for a junior web development role. </p>
-						<br>
+		<div class="row justify-content-center">
+
+			<!-- Monster Game -->
+			<div class="card">
+				<div class="card-body">
+					<div class="row">
+						<div class="col-sm-12 col-md-12 col-lg-6 col-xl-4">
+							<img src="assets/images/monster.png" alt="Monster game image" />
+						</div>
+						<div class="col-sm-12 col-md-12 col-lg-6 col-xl-8">
+							<h5 class="card-title">Monster</h5>
+							<p class="card-text">This is a game that allows a user to create and save a monster that can be used to fight other monsters. This project focuses primarily on using PHP for most of the functionality. The monsters are saved to a database with MySQL.</p></br>
+							<a href="https://github.com/construktivist/monster-game" class="card-link">View Repo</a>
+							<a href="https://monster-game.herokuapp.com/" class="card-link">View Project</a>
+						</div>
 					</div>
 				</div>
 			</div>
-			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
-				<div class="panel panel-default">
-					<div class="panel-body">
-						<h3 class="header-center">Connect with Me</h3>
-						<hr>
-						<div class="side-nav">
-								<a href="https://github.com/construktivist" target="_blank">
-									<img src="assets/images/github.png" alt="Github link"></a>
-								<a href="https://www.linkedin.com/in/keegankelly" target="_blank">
-									<img src="assets/images/linkedin.png" alt="LinkedIn link"></a>
-								<a href="http://stackoverflow.com/users/6642268/keegankelly" target="_blank">
-								<img src="assets/images/stackoverflow.png" alt="Stackoverflow link"></a>
+
+			<!-- Homeside Web App -->
+			<div class="card">
+				<div class="card-body">
+					<div class="row">
+						<div class="col-sm-12 col-md-12 col-lg-6 col-xl-4">
+							<img src="assets/images/homeside.png" alt="Homeside game image" />
+						</div>
+						<div class="col-sm-12 col-md-12 col-lg-6 col-xl-8">
+							<h5 class="card-title">Homeside</h5>
+							<p class="card-text">This is an app that aims to connect homeowners and home repair professionals. Users that are home repair professionals can save their profiles to a database and homeowners can search the database for the professional that matches their needs. This was a group effort that uses MongoDB, Express, Node.js and React for each feature.</p></br>
+							<a href="https://github.com/construktivist/home-app" class="card-link">View Repo</a>
+							<a href="https://mmsk-homeside.herokuapp.com/#/home" class="card-link">View Project</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Hangman game -->
+			<div class="card">
+				<div class="card-body">
+					<div class="row">
+						<div class="col-sm-12 col-md-12 col-lg-6 col-xl-4">
+							<img src="assets/images/hangman.png" alt="Hangman game image" />
+						</div>
+						<div class="col-sm-12 col-md-12 col-lg-6 col-xl-8">
+							<h5 class="card-title">Hangman</h5>
+							<p class="card-text">This is a client side only game where users guess what the word is and it saves their wins. There are several words that are randomly selected each time the game starts. It was built using plain Javascript, HTML and CSS.</p></br>
+							<a href="https://github.com/construktivist/Week11-Hangman" class="card-link">View Repo</a>
+							<a href="https://kkelly-hangman.herokuapp.com/" class="card-link">View Project</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Friend finder -->
+			<div class="card">
+				<div class="card-body">
+					<div class="row">
+						<div class="col-sm-12 col-md-12 col-lg-6 col-xl-4">
+							<img src="assets/images/friend.png" alt="Friend game image" />
+						</div>
+						<div class="col-sm-12 col-md-12 col-lg-6 col-xl-8">
+							<h5 class="card-title">Friend</h5>
+							<p class="card-text">A web application where users take a survey and they are matched with other users based on their scores. Instead of using a database, this app just has some users saved to a file that the server reads.</p></br>
+							<a href="https://github.com/construktivist/FriendFinder" class="card-link">View Repo</a>
+							<a href="https://kkelly-friendfinder.herokuapp.com/" class="card-link">View Project</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Eat da burger -->
+			<div class="card">
+				<div class="card-body">
+					<div class="row">
+						<div class="col-sm-12 col-md-12 col-lg-6 col-xl-4">
+							<img src="assets/images/burger.png" alt="Burger game image" />
+						</div>
+						<div class="col-sm-12 col-md-12 col-lg-6 col-xl-8">
+							<h5 class="card-title">Burger</h5>
+							<p class="card-text">A simple project that is similar to a todo list. A user can create a burger that is saved to a database and then can be deleted from the database. This project was built with Jquery and MySQL.</p></br>
+							<a href="https://github.com/construktivist/burger" class="card-link">View Repo</a>
+							<a href="https://kkelly-burger.herokuapp.com/burger" class="card-link">View Project</a>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="row">
-			<div class="col-xs-12 footer">
-				<p class="text-center">&copy; Copyright 2017 Keegan Kelly</p>
-			</div>
-		</div>
-
-
+	</div>
 </body>
 
 </html>
