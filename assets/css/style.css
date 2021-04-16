@@ -52,6 +52,7 @@ header .container .row nav {
 
 .btn {
     background-color: white;
+    margin-right: 20px;
 }
 
 .btn:hover {
