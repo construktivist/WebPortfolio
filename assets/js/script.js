@@ -58,19 +58,19 @@
     $(document).ready(function(){
     db.collection("projects").get().then((querySnapshot) => {
         querySnapshot.forEach((doc) => {
-            $('#projectCards').append(
-                '<div class="project-card col-sm-12 col-md-6">
-                <div class="project-card-title">
-                    <h3>'+ doc.name +'</h3>
-                </div>
-                <div class="project-card-copy">
-                    <p>' + doc.description +'</p>
-                </div>
-                <div class="project-card-links">
-                    <a href="'+ doc.repo +'" class="btn">repo</a>
-                    <a href="' + doc.website +'" class="btn">website</a>
-                </div>
-                </div>');
+            console.log(doc.data(doc.id));
+            $('#projectCards').append('<div class="project-card col-sm-12 col-md-6">' +
+            '<div class="project-card-title">' +
+                '<h3>'+ doc.data(doc.id).name +'</h3>' +
+            '</div>' +
+            '<div class="project-card-copy">' +
+                '<p>' + doc.data(doc.id).description +'</p>' +
+            '</div>' +
+            '<div class="project-card-links">' +
+                '<a href="'+ doc.data(doc.id).repo +'" class="btn">repo</a>' +
+                '<a href="' + doc.data(doc.id).website +'" class="btn">website</a>' +
+            '</div>' +
+            '</div>');
         });
     });
     });
