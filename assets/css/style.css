@@ -31,6 +31,12 @@ header .container .row nav {
     padding: 0;
 }
 
+.project-card:hover {
+    box-shadow: 10px 10px 40px #2c2c2c;
+    transform: scale(1.1);
+    transition: transform 0.2s ease-in;
+}
+
 .project-card-title {
     background: white;
     border-top-left-radius: 10px;
