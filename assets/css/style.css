@@ -11,8 +11,12 @@ h1, h2, h3, h4, h5, h6, p, a {
     font-family: Lexend, Helvetica, sans-serif;
 }
 
-a:hover {
+.btn:hover {
     color:white;
+}
+
+header {
+    padding: 40px;
 }
 
 header .container .row nav {
@@ -20,7 +24,7 @@ header .container .row nav {
 }
 
 .projects {
-    padding: 100px;
+    padding: 40px;
 }
 
 .project-card {
@@ -65,6 +69,10 @@ header .container .row nav {
     background-color: orangered;
 }
 
+.about {
+    padding: 40px;
+}
+
 .about-card {
     background-color: #67737E;
     border-radius: 10px;
@@ -102,7 +110,14 @@ i {
 }
 
 @media (min-width: 768px) {
+    .projects {
+        padding: 100px;
+    }
     .project-card {
         max-width: 45%;
     }
+    .about {
+        padding: 0 100px;
+    }
 }
+
