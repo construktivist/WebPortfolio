@@ -65,6 +65,42 @@ header .container .row nav {
     background-color: orangered;
 }
 
+.about-card {
+    background-color: #67737E;
+    border-radius: 10px;
+    border: 1px solid white;
+    margin: 40px 0;
+    padding: 20px;
+}
+
+.about-copy {
+    color: white;
+}
+
+.about-links {
+    margin-top: 20px;
+}
+
+.about-links a {
+    color: black;
+}
+
+i {
+    margin: 10px;
+}
+
+.bi-github::before, .bi-linkedin::before {
+    font-size: 2rem;
+    background: white;
+    padding:10px;
+    border-radius: 10px;
+}
+
+.bi-github:hover:before, .bi-linkedin:hover:before {
+    background-color: orangered;
+    color: white;
+}
+
 @media (min-width: 768px) {
     .project-card {
         max-width: 45%;
